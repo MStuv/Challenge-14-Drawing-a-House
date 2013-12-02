@@ -21,6 +21,7 @@
 		C1D61A34184C21AE0063797B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D61A16184C21AE0063797B /* UIKit.framework */; };
 		C1D61A3C184C21AE0063797B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1D61A3A184C21AE0063797B /* InfoPlist.strings */; };
 		C1D61A3E184C21AE0063797B /* Challenge__14_Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D61A3D184C21AE0063797B /* Challenge__14_Drawing_a_HouseTests.m */; };
+		C1D61A49184C21F60063797B /* MASHouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D61A48184C21F60063797B /* MASHouseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C1D61A39184C21AE0063797B /* Challenge #14 Drawing a HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Challenge #14 Drawing a HouseTests-Info.plist"; sourceTree = "<group>"; };
 		C1D61A3B184C21AE0063797B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1D61A3D184C21AE0063797B /* Challenge__14_Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Challenge__14_Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+		C1D61A47184C21F60063797B /* MASHouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASHouseView.h; sourceTree = "<group>"; };
+		C1D61A48184C21F60063797B /* MASHouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASHouseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				C1D61A21184C21AE0063797B /* MASAppDelegate.h */,
 				C1D61A22184C21AE0063797B /* MASAppDelegate.m */,
 				C1D61A24184C21AE0063797B /* Main.storyboard */,
+				C1D61A47184C21F60063797B /* MASHouseView.h */,
+				C1D61A48184C21F60063797B /* MASHouseView.m */,
 				C1D61A27184C21AE0063797B /* MASViewController.h */,
 				C1D61A28184C21AE0063797B /* MASViewController.m */,
 				C1D61A2A184C21AE0063797B /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1D61A29184C21AE0063797B /* MASViewController.m in Sources */,
+				C1D61A49184C21F60063797B /* MASHouseView.m in Sources */,
 				C1D61A23184C21AE0063797B /* MASAppDelegate.m in Sources */,
 				C1D61A1F184C21AE0063797B /* main.m in Sources */,
 			);
